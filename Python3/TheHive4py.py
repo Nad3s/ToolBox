@@ -24,7 +24,7 @@ def check_template(url,key):
 	print("Research of existing case template")
 
   try:
-		response=api.get_case_template(name)
-		print(json.dumps(template, indent=4))
-	except CaseTemplateException as e:
-		print(str(e))
+	response=api.get_case_template(name)
+	print(json.dumps(template, indent=4))
+  except CaseTemplateException as e:
+	print(str(e))
