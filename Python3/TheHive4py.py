@@ -28,3 +28,16 @@ def check_template(url,key):
 	print(json.dumps(template, indent=4))
   except CaseTemplateException as e:
 	print(str(e))
+
+def del_case(url,key,query,range):
+	api=TheHiveApi(url,key)
+
+	print("Delete all cases")
+	response=api.find_cases(query=query,range=number)
+	if response.status_code == 200:
+		for i in range(number):
+			id = response.json()[i]['id']
+			api.delete_case(id, force=True)
+			print(i+1,"/",number)
+	else:
+		print('ko: {}/{}'.format(response.status_code, response.text))	
