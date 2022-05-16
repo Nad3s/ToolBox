@@ -29,7 +29,7 @@ def check_template(url,key):
   except CaseTemplateException as e:
 	print(str(e))
 
-def del_case(url,key,query,range):
+def del_case(url,key,query,range): #query= (Eq('tlp', 2)) number=50
 	api=TheHiveApi(url,key)
 
 	print("Delete all cases")
