@@ -1,5 +1,5 @@
 # List of error code
-## Code 302 : Connection closed
+## Code 302 : Found Previously Moved Temporary
 Meaning:
 
 Correctifs:
@@ -8,11 +8,15 @@ Correctifs:
 Meaning:
 
 Correctifs:
-## Code 500 : Internal Server Error
+## 5XX : Server erreur
+### Code 500 : Internal Server Error
 Meaning:
 
 Correctifs:
-## Code 502 : Bad Gateway
+### Code 502 : Bad Gateway
 Meaning:
 
 Correctifs:
+
+# Sources
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#3xx_redirection
