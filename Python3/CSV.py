@@ -4,6 +4,7 @@ This script regroup all the function who can be usefull for CSV file (reading (R
 Modules used:
 - pandas
 """
+import pandas
 
 #RE. Result -> Table datas with 1 table by line + X tables by peer of Header/Value
 def read_csv(file):
@@ -21,4 +22,5 @@ def read_csv(file):
       line.append(couple)
       
     datas.append(line)
+    #print(datas)
   return datas
