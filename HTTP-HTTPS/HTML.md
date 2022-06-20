@@ -15,15 +15,18 @@ Here we want in a single file, have multiple website show.
     </iframe>
     </td>
   </tr>
-  <tr>
-     <td width="200" height="200">
-	<iframe width="200" height="200" src="http://www.microsoft.fr" frameborder="0" allowtransparency="true" scrolling="yes">
-    </iframe>
-    </td>
-     <td width="200" height="200">
-	<iframe width="200" height="200" src="http://www.developpez.com" frameborder="0" allowtransparency="true" scrolling="yes">
-    </iframe>
-    </td>
-  </tr>
 </table>
 ```
+Here :
+- tr ->  Lines
+- td -> Columns
+- iframe -> Content of a cell
+
+With that we can have this:
+![image](https://user-images.githubusercontent.com/87640190/174542684-c7c5081c-19ec-4fe6-b110-7604c778799c.png)
+
+For auto-ajust elements in the page, don't use number but pourcentage :
+- If you want an element to take all the page, put in height and weigth "100%".
+- If you want the half, put "50%"
+
+etc etc...
