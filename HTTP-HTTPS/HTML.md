@@ -30,3 +30,12 @@ For auto-ajust elements in the page, don't use number but pourcentage :
 - If you want the half, put "50%"
 
 etc etc...
+
+# Links
+[Multiple pages in 1 page](https://www.developpez.net/forums/d364670/webmasters-developpement-web/balisage-x-html-validation-w3c/voir-plusieurs-pages-web-page-web/)
+
+[Horizontal menu](https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp)
+
+[Commentaries in HTML](https://fr.w3docs.com/apprendre-html/les-commentaires-html.html)
+
+[Auto-ajust with Navigator page](https://forums.commentcamarche.net/forum/affich-3466911-ajustement-automatique-taille-de-la-page)
